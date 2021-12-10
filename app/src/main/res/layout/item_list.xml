@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/profilePicture"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="97dp"
+        android:layout_height="94dp"
         android:layout_weight="1"
         tools:srcCompat="@tools:sample/avatars" />
 
@@ -21,11 +21,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="131dp"
-        android:layout_marginLeft="131dp"
-        android:layout_marginTop="9dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="8dp"
         android:layout_weight="1"
-        android:text="Nombre:" />
+        android:text="Alias:" />
 
     <TextView
         android:id="@+id/txtNombreContent"
@@ -91,5 +91,11 @@
         android:layout_marginTop="66dp"
         android:layout_weight="1"
         android:text="TextView" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
 
 </RelativeLayout>
